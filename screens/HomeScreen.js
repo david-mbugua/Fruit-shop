@@ -23,7 +23,7 @@ export default function HomeScreen() {
         </View>
         {/* categories */}
         <View className="mt-4">
-          <Text style={{color: themeColors.text}} 
+          <Text style={{color: themeColors.text}}
           className="text-2xl tracking-widest font-medium ml-5">Seasonal</Text>
           <Text style={{color: themeColors.text}}  className="text-3xl font-semibold ml-5">Fruits and Vegetables</Text>
           <ScrollView className="mt-8 px-5" horizontal showsHorizontalScrollIndicator={false}>
